@@ -1,18 +1,43 @@
-# 💖 Retro Valentine's Day Website
+# Valentines Day Website
 
-A fun, interactive Valentine's Day website built with React, Vite, and Tailwind CSS. Features a retro gaming aesthetic with a playful "No" button that runs away when you try to click it!
+Short description of your project. A fun and interactive web application for Valentine’s Day, built with React, Vite, and Tailwind CSS. Features animated hearts, a success modal, and a modern responsive design.
 
-## ✨ Features
+## Features
 
+- **Animated Hearts:** Floating and interactive heart animations for a festive feel.
+- **Success Modal:** Displays a modal on successful actions or submissions.
+- **Responsive Design:** Looks great on all devices, from mobile to desktop.
+- **Fast Build & Hot Reload:** Powered by Vite for instant feedback during development.
+- **Easy Deployment:** Ready for deployment on Vercel or any static hosting provider.
 
-## 🚀 Getting Started
+## Getting started
 
-### Prerequisites
+### 1. Clone the repository
 
+```bash
+git clone https://github.com/Benjaminax/vlentines-day-website.git
+cd vlentines-day-website
+```
 
-### Installation
+### 2. Install dependencies
 
-1. Clone the repository
+```bash
+npm install
+```
+
+### 3. Configure environment variables (if applicable)
+
+This project does not require environment variables by default. If you add any, follow this pattern:
+
+```bash
+cp .env.example .env
+```
+
+If you are on Windows PowerShell:
+
+```powershell
+Copy-Item .env.example .env
+```
 
 Required variables in `.env` (if needed):
 
